@@ -71,15 +71,6 @@ class MainWindow(QMainWindow):
 
     def show_about_message(self):
         QMessageBox.about(self, "About", "MassHunter Library creator for MassOmics.\n Tony Chen\n 2023\nhttps://github.com/boloson/OmicHelper")
-        # # Create a QMessageBox object
-        # msg_box = QMessageBox()
-
-        # # Set the message text
-        # msg_box.setText("This is a sample PyQt5 application.")
-
-        # # Show the message box
-        # msg_box.show()
-
 
     def browse_mass_hunter(self):
         options = QFileDialog.Options()
